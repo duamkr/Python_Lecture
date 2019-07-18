@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1eab10e-c84b-4d52-a5b9-c732a4e30593" name="Default Changelist" comment="" />
+    <list default="true" id="a1eab10e-c84b-4d52-a5b9-c732a4e30593" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Lecture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Lecture.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.Python_Dojang/Unit 12.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.Python_Dojang/Unit 12.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.Python_Dojang/Unit 12.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="-1242">
               <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
             </state>
@@ -27,15 +33,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="213" column="98" selection-start-line="213" selection-start-column="96" selection-end-line="213" selection-end-column="98" />
+=======
+            <state relative-caret-position="3192">
+              <caret line="168" column="61" selection-start-line="168" selection-start-column="61" selection-end-line="168" selection-end-column="61" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/2.exam/Unit 24.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+=======
+        <entry file="file://$PROJECT_DIR$/1.Python_Dojang/Unit 8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -58,6 +75,7 @@
         <option value="$PROJECT_DIR$/Unit 10/sample.py" />
         <option value="$PROJECT_DIR$/example/Unit8-12.py" />
         <option value="$PROJECT_DIR$/Unit 13/Unit 12.py" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/2.exam/Unit 8.py" />
         <option value="$PROJECT_DIR$/2.exam/Unit 9.py" />
         <option value="$USER_HOME$/Downloads/python_dojang-master/10-5.py" />
@@ -68,10 +86,19 @@
         <option value="$PROJECT_DIR$/2.exam/Unit 22.py" />
         <option value="$PROJECT_DIR$/2.exam/Unit 23.py" />
         <option value="$PROJECT_DIR$/2.exam/Unit 24.py" />
+=======
+        <option value="$PROJECT_DIR$/1.Python_Dojang/Unit 12.py" />
+        <option value="$PROJECT_DIR$/1.Python_Dojang/Unit 8.py" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< Updated upstream
+=======
+    <option name="x" value="-1665" />
+    <option name="y" value="-17" />
+>>>>>>> Stashed changes
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -86,6 +113,7 @@
         <subPane>
           <expand>
             <path>
+<<<<<<< Updated upstream
               <item name="Python_Lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Lecture" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -93,6 +121,15 @@
               <item name="Python_Lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Lecture" type="462c0819:PsiDirectoryNode" />
               <item name="2.exam" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="1.Python_Dojang" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
             </path>
           </expand>
           <select />
@@ -102,7 +139,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -123,7 +161,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Unit 12">
+    <configuration name="Unit 12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Lecture" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.Python_Dojang" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.Python_Dojang/Unit 12.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unit8-12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Lecture" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,6 +206,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Unit 12" />
         <item itemvalue="Python.Unit8-12" />
       </list>
     </recent_temporary>
@@ -174,35 +234,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+>>>>>>> Stashed changes
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.17913593" />
       <window_info id="Favorites" order="2" sideWeight="0.5016129" side_tool="true" weight="0.17913593" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32855567" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+<<<<<<< Updated upstream
       <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.40953413" />
+=======
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.49566162" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py" />
+    <entry file="file://$PROJECT_DIR$/example/Unit8-12.py" />
+    <entry file="file://$PROJECT_DIR$/Unit 10/sample.py" />
+    <entry file="file://$USER_HOME$/Downloads/python_dojang-master/8-5.py" />
+    <entry file="file://$PROJECT_DIR$/Unit 13/Unit 12.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevconsole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="3293" column="36" selection-start-line="3293" selection-start-column="36" selection-end-line="3293" selection-end-column="36" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/example/Unit8-12.py" />
     <entry file="file://$PROJECT_DIR$/Unit 10/sample.py" />
     <entry file="file://$PROJECT_DIR$/Unit 13/Unit 12.py" />
@@ -329,6 +403,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+=======
+    <entry file="file://$PROJECT_DIR$/1.Python_Dojang/Unit 12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3192">
+          <caret line="168" column="61" selection-start-line="168" selection-start-column="61" selection-end-line="168" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.Python_Dojang/Unit 8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>

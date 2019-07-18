@@ -1,4 +1,6 @@
 
+
+
 for i in range(10) :
     print(i, end = ' ')
     i = 10
@@ -162,6 +164,7 @@ for i in range(1, 101):
         print(i)
 
 # FizzBuzz 코드 단축하기
+
 for i in range(1, 101) :
     print('Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0) or i)
 
@@ -177,3 +180,4 @@ t.right(45)
 t.forward(50)
 
 
+import cvxopt
