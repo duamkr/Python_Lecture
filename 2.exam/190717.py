@@ -82,4 +82,69 @@ if a*a + b*b == c*c and a < b < c and a + b > c :
 
 
 # 반복문
-# 1.
+# 1. 두정수의 테스트 케이스 출력
+t = int(input())
+a, b = map(int,input().split())
+
+if a > 0 and b <10 :
+    for i in range(1,t+1) :
+        print('Case #'+ str(i) + ':', a, '+', b, '=', a+b)
+
+
+# 2. 별 그리기
+star = int(input('5이상 9이하 홀수를 입력하시오'))
+
+for i in range(1,star+1) :
+    if i % 2 == 1 :
+    print(('*' * i).center(star))
+
+for i in reversed((range(1,star))) :
+    if i % 2== 1 :
+    print(('*' * i).center(star))
+
+
+# 3. 디지털 시계에 하루동안 (00:00 ~ 23 : 59) 3이 표시되는 시간을 초로 환산하면 총 몇초일까요
+all_time = 0
+for h in range(24):
+    for m in range(60):
+        time = str(h) + str(m)
+        if '3' in time:
+            all_time += 60
+
+print(all_time)
+
+# 4. 1~1000 에서 각 숫자의 개수를 구하시오
+
+a,  b = map(int, input().split())
+text = ""
+for i in range(a,b+1) :
+    text += str(i)
+for k in range(0,10) :
+    print(k,'=', text.count(str(k)))
+
+# 5. 완전수 구하기..
+
+def getDivisor(number):
+    result = list()
+    for i in range(1, number):
+        if number % i == 0:
+            result.append(i)
+    return result
+
+n = int(input('정수 입력> '))
+for i in range(1, n+1):
+    div = getDivisor(i)
+    if i == sum(div):
+        print(i)
+
+
+
+# 6. 자연수
+a= 0
+b= 0
+n = int(input())
+for i in range(1, n+1) :    #  합의 제곱
+    a += i
+    b += i**2
+
+print(a*a - b)
