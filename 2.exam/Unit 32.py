@@ -15,7 +15,7 @@ files3{0:03d}.fomat(34)
 files3[1:]
 
 files
-# .의 인덱스가 1이면 00을 붙이고, .의 인덱스가 2면 00을 붙인다.
+# .format의 '.'으로 나눈 후 첫번째[0]가 1이면 00을 붙이고, .의 인덱스가 2면 00을 붙인다.
 
 print(list(map(lambda x: "{:0>3}.{}".format(x.split('.')[0],x.split('.')[1]),files)))
 
