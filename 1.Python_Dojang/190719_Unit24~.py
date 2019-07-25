@@ -79,7 +79,7 @@ for value in x.values():
 keys = ['a', 'b', 'c', 'd']
 x = {key: value for key, value in dict.fromkeys(keys).items()}
 x = {key : None for key in keys}
-
+x
 # 딕셔너리 표현식에서 if 조건문 사용하기
 
 x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
