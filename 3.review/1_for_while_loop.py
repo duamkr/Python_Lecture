@@ -59,10 +59,6 @@ while True :
 
 
 a,b,c = map(int, input().split())
-
-
-def baseball (a,b,c) :
-
-
+alist= [a,b,c]
 
 

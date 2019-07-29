@@ -61,22 +61,31 @@ row , col= map(int, input().split())
 
 matrix = []
 for a in range(row):
-    matrix.append(list(input()))
+    matrix.append(list(input().split()))
 
 
 def pang(a, b):
-    for r in range(a - 1, a + 1):      # 입력되는 [a][b] 좌표의 주변값 -1~ +2 까지 matrix[r][c]가 == '*'이면 count에 1씩 더해서 누적
-        for c in range(b - 1, b + 1):
-            if matrix[r][c] == matrix[r-1][c] and matrix[r+1][c]:
+    for r in range(a-1,a+1):      # 입력되는 [a][b] 좌표의 주변값 -1~ +2 까지 matrix[r][c]가 == '*'이면 count에 1씩 더해서 누적
+        for c in range(b-1,b+1):
+            if r < 0 or c < 0 or r >= row or c >= col:
+                continue
+            if matrix[r][c] == matrix[r-1][c] and matrix[r][c] == matrix[r+1][c]:
                 return '*'
-            if matrix[r][c] == matrix[r][c-1] and matrix[r][c+1]:
+            if matrix[r][c] == matrix[r][c-1] and matrix[r][c] == matrix[r][c+1]:
                 return '*'
+            else:
+    return
+
+
 
 
 for l in range(row):                       # 입력한 가로 x 세로, row와 col의 좌표값 입력
     for p in range(col):
         print(pang(l, p), end='')    # 만들어 함수(주변의 지뢰 개수 count 프린트
     print()
+
+matrix[0][0] == matrix[1][0] and matrix[2][0]    # 세로
+matrix[0][0] == matrix[0][1] and matrix[0][2]    # 가로
 
 
 # 9. 다음과 같은 리스트 a가 주어졌을때 a의 각 원소를 제곱한 값을 원소로 갖는 리스트 b를 람다표신식을 사용하여 구하시오
